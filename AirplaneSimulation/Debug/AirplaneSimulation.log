@@ -1,0 +1,41 @@
+﻿Build started 12/15/2014 11:43:59 PM.
+     1>Project "C:\Users\rena\documents\visual studio 2013\Projects\AirplaneSimulation\AirplaneSimulation\AirplaneSimulation.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\AirplaneSimulation.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\AirplaneSimulation.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Airplane.cpp AirplaneSimulation.cpp Queue.cpp
+         Queue.cpp
+     1>c:\users\rena\documents\visual studio 2013\projects\airplanesimulation\airplanesimulation\airplane.h(4): error C2011: 'Airplane' : 'class' type redefinition
+                 c:\users\rena\documents\visual studio 2013\projects\airplanesimulation\airplanesimulation\airplane.h(4) : see declaration of 'Airplane'
+     1>c:\users\rena\documents\visual studio 2013\projects\airplanesimulation\airplanesimulation\queue.cpp(12): warning C4150: deletion of pointer to incomplete type 'Airplane'; no destructor called
+                 c:\users\rena\documents\visual studio 2013\projects\airplanesimulation\airplanesimulation\airplane.h(4) : see declaration of 'Airplane'
+     1>c:\users\rena\documents\visual studio 2013\projects\airplanesimulation\airplanesimulation\queue.cpp(24): error C2027: use of undefined type 'Airplane'
+                 c:\users\rena\documents\visual studio 2013\projects\airplanesimulation\airplanesimulation\airplane.h(4) : see declaration of 'Airplane'
+     1>c:\users\rena\documents\visual studio 2013\projects\airplanesimulation\airplanesimulation\queue.cpp(24): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         AirplaneSimulation.cpp
+     1>c:\users\rena\documents\visual studio 2013\projects\airplanesimulation\airplanesimulation\airplane.h(4): error C2011: 'Airplane' : 'class' type redefinition
+                 c:\users\rena\documents\visual studio 2013\projects\airplanesimulation\airplanesimulation\airplane.h(4) : see declaration of 'Airplane'
+     1>c:\users\rena\documents\visual studio 2013\projects\airplanesimulation\airplanesimulation\airplanesimulation.cpp(16): warning C4005: 'RAND_MAX' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(154) : see previous definition of 'RAND_MAX'
+     1>c:\users\rena\documents\visual studio 2013\projects\airplanesimulation\airplanesimulation\airplanesimulation.cpp(21): error C2079: 'averagePlane' uses undefined class 'Airplane'
+     1>c:\users\rena\documents\visual studio 2013\projects\airplanesimulation\airplanesimulation\airplanesimulation.cpp(21): error C2078: too many initializers
+     1>c:\users\rena\documents\visual studio 2013\projects\airplanesimulation\airplanesimulation\airplanesimulation.cpp(21): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\rena\documents\visual studio 2013\projects\airplanesimulation\airplanesimulation\airplanesimulation.cpp(27): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\rena\documents\visual studio 2013\projects\airplanesimulation\airplanesimulation\airplanesimulation.cpp(28): error C2079: 'genericAirplane' uses undefined class 'Airplane'
+     1>c:\users\rena\documents\visual studio 2013\projects\airplanesimulation\airplanesimulation\airplanesimulation.cpp(34): error C2228: left of '.getLandingTime' must have class/struct/union
+                 type is 'int'
+     1>c:\users\rena\documents\visual studio 2013\projects\airplanesimulation\airplanesimulation\airplanesimulation.cpp(35): error C2664: 'void Queue::Enqueue(Airplane)' : cannot convert argument 1 from 'int' to 'Airplane'
+                 Source or target has incomplete type
+     1>c:\users\rena\documents\visual studio 2013\projects\airplanesimulation\airplanesimulation\airplanesimulation.cpp(37): error C2228: left of '.getTakeOffTime' must have class/struct/union
+                 type is 'int'
+         Airplane.cpp
+     1>c:\users\rena\documents\visual studio 2013\projects\airplanesimulation\airplanesimulation\airplane.cpp(9): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\rena\documents\visual studio 2013\projects\airplanesimulation\airplanesimulation\airplane.cpp(14): error C2084: function 'Airplane::Airplane(void)' already has a body
+                 c:\users\rena\documents\visual studio 2013\projects\airplanesimulation\airplanesimulation\airplane.h(8) : see previous definition of '{ctor}'
+         Generating Code...
+     1>Done Building Project "C:\Users\rena\documents\visual studio 2013\Projects\AirplaneSimulation\AirplaneSimulation\AirplaneSimulation.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.60
